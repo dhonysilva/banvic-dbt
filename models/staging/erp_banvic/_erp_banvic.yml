@@ -7,9 +7,34 @@ sources:
     tables:
       - name: agencias
         description: agencias' data
+        columns:
+          - name: cod_agencia
+            description: Chave Primária da tabela agencias
+            data_tests:
+              - unique
+              - not_null
       - name: localidades
         description: localidades' data
+        columns:
+          - name: cod_localidade
+            description: Chave Primária da tabela localidades
+            data_tests:
+              - unique
+              - not_null
+
       - name: clientes
-        description: clients' data
+        description: clientes' data
+        columns:
+          - name: cod_cliente
+            description: Chave Primária da tabela clientes
+            data_tests:
+              - unique
+              - not_null
       - name: colaboradores
         description: colaboradores' data
+        columns:
+          - name: cod_colaborador
+            description: Chave Primária da tabela colaboradores
+            data_tests:
+              - unique
+              - not_null
