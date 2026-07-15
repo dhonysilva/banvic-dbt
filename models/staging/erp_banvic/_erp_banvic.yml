@@ -3,7 +3,10 @@ sources:
   - name: erp
     description: Banvic's ERP with Client, Colaborators, Accounts and Transaction's data
     schema: erp_banvic
+    
     tables:
+      - name: agencias
+        description: agencias' data
       - name: localidades
         description: localidades' data
       - name: clientes
