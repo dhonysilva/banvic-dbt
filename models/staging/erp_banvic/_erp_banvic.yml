@@ -11,3 +11,5 @@ sources:
         description: localidades' data
       - name: clientes
         description: clients' data
+      - name: colaboradores
+        description: colaboradores' data
