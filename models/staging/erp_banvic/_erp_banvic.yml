@@ -46,3 +46,11 @@ sources:
                 combination_of_columns:
                   - cod_colaborador
                   - cod_agencia
+
+      - name: contas
+        description: Tabela que registra as informações das contas bancárias dos clientes, incluindo número da conta, agência, saldo, tipo de conta e data de abertura.
+        columns:
+          - name: num_conta
+            data_tests:
+              - unique 
+              - not_null
